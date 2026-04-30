@@ -1,20 +1,14 @@
 ---
 name: notion-project-hub
 description: >
-  Project hub skill for Stafræn Heilsa (Iceland Directorate of Health) projects. Handles three
-  workflows: (1) PROJECT KICKOFF — invoke with /kickofftool, "new project", "kicking off X",
-  or when documents (specs, briefs, requirement docs) are dropped alongside a project description.
-  Runs the structured intake process aligned with the Hönnunarhandbók (4-phase UCD process)
-  and creates the full Notion project hub. (2) DESIGN SPRINT — invoke when brainstorming UI/UX,
-  interface layouts, navigation structures, or any design decision that benefits from seeing
-  options visually. Triggers when user says "let's brainstorm the design", "show me options",
-  "mock this up", "let me see what this looks like", or when working on Hugmyndir (Innovate)
-  phase work. Starts the Visual Companion server for interactive mockup review and saves
-  decisions to Notion. (3) ARTIFACT PUSH — during or after any superpowers session that produces
-  meaningful output, push plans, decisions, specs, or status updates to the project's Notion hub.
-  Offer proactively at the end of productive sessions. NOTE: Modes 1 and 3 require only
-  the Notion MCP. Mode 2 (Design Sprint) additionally requires the `superpowers` and
-  `frontend-design` plugins — if either is missing, fall back to text-based brainstorming.
+  Stafræn Heilsa project hub — three modes: (1) KICKOFF: invoke with /kickofftool, "new
+  project", or when dropping spec documents. Runs structured intake per Hönnunarhandbók
+  4-phase UCD process and creates the full Notion hub. (2) DESIGN SPRINT: invoke when
+  brainstorming UI/UX layouts — "brainstorm the design", "show me options", "mock this up",
+  "what could this look like". Requires superpowers + frontend-design plugins; falls back to
+  text brainstorm if missing. (3) ARTIFACT PUSH: after any session producing plans, decisions,
+  or specs — push to Notion. Offer proactively at session end. Requires Notion MCP for all
+  modes. Always use this skill for Stafræn Heilsa / Embætti landlæknis project work.
 ---
 
 # Notion Project Hub
