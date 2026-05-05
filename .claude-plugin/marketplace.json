@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "stafraen-heilsa",
-      "source": ".",
+      "source": { "source": "github", "repo": "MRH-Landlaeknir/claude-plugin" },
       "description": "Project hub for Stafræn Heilsa — kickoff new projects, run visual design sprints, and push session artifacts to Notion. Aligned with the Hönnunarhandbók 4-phase UCD process.",
       "version": "0.3.0",
       "author": {
