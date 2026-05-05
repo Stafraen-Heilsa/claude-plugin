@@ -466,3 +466,54 @@ One offer per session. Don't repeat it.
 - **WCAG 2.2 AA**: All health solutions must meet this accessibility standard. Mention it during kickoff if not already raised.
 - **Phase sequencing**: Do not advance a project's phase in Notion until the current phase checklist is sufficiently complete. If asked to mark a project as "Greining" but the Skilgreining checklist has unchecked items, flag this.
 - **Deliverables are binding**: When the handbook is part of contract documents, afhendingarkröfur are legally binding. The deliverables lists are not just suggestions — they define when a phase is officially done.
+
+---
+
+## Reference handbooks
+
+Two full handbooks are available as reference files. Load them when relevant — do not load both at once unless comparing them directly.
+
+### `references/honnunarhandbok.md` — Hönnunarhandbók Stafrænar Heilsu (Edition 2, April 2026)
+
+**Load when:**
+- Running a project kickoff — read the full UCD phase requirements before asking questions
+- In Phase 2 (Greining) — check the research and observation methods described
+- In Phase 3 (Hugmyndir) — check the concept development and wireframing guidelines
+- A design decision feels uncertain — consult the handbook for the authoritative process
+- Verifying what the afhendingarkröfur (deliverables) are for a specific phase transition
+- Checking the exact tékklistar items and which require (*) user testing evidence
+
+**Key sections:**
+- Kafli 2: Ferli (4-phase UCD process and deliverables per phase)
+- Kafli 3: Skilgreining (Phase 1 questions and checklist)
+- Kafli 4: Greining (Phase 2 — user research methods, observation, interviews)
+- Kafli 5: Hugmyndir (Phase 3 — concept development, user stories, validation)
+- Kafli 6: Hönnun og þróun (Phase 4 — design patterns, WCAG, usability heuristics, UI handoff)
+
+### `references/throdunarhandbok.md` — Þróunarhandbók Stafrænar Heilsu (Edition 4, April 2026)
+
+**Load when:**
+- A project enters Phase 4 (Hönnun og þróun) — cross-check design decisions against technical requirements
+- Evaluating technology choices (programming language, framework, cloud, databases)
+- Discussing API design, authentication, security, or data handling
+- A user story involves sensitive health data, audit logging, or patient records
+- Reviewing code quality expectations or CI/CD requirements
+- Planning deployment, containerisation (Docker/Kubernetes), or operations
+- Any AI/ML component is being considered in the product
+- Checking whether a proposed technical approach needs a formal exception (undanþáguferill)
+
+**Key sections (by chapter):**
+- Kafli 1: Kóðageymslur — repo structure, naming, .agent/ folder, Agent OS v3
+- Kafli 2: Viðtöku- og útgáfuferlar — acceptance criteria, release process
+- Kafli 3: Gæðaferlar — quality gates, code review, automated testing requirements
+- Kafli 5: Forritunarmál og tæknival — approved languages, frameworks, evaluation criteria
+- Kafli 6: Hönnun og arkitektúr — microservices, reference architecture, API patterns
+- Kafli 8: Gervigreind í hugbúnaðarþróun — AI-assisted development + AI products
+- Kafli 9: Öryggi og auðkenningar — mandatory security requirements (SKAL)
+- Kafli 10: Hugbúnaðarprófanir — testing types, coverage requirements
+- Kafli 11: Aðgengismál — WCAG 2.2, WAI-ARIA, accessibility testing
+- Kafli 13: Geymsla og miðlun gagna — health data handling, GDPR, database requirements
+- Kafli 14: Útgáfuferli og keyrslustýring — Docker, Kubernetes, secrets management
+- Viðauki (SKAL/GETUR): Binding requirements table for use in procurement and contracts
+
+**Important:** Þróunarhandbók requirements marked SKAL are **binding** in contracts. When a project's proposed approach conflicts with a SKAL item, flag this explicitly and reference the undanþáguferill (exception process) described in the handbook appendix.
