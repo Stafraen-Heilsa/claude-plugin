@@ -1,0 +1,19 @@
+{
+  "name": "stafraen-heilsa",
+  "owner": {
+    "name": "Stafræn Heilsa / Embætti landlæknis"
+  },
+  "description": "Claude plugins for Stafræn Heilsa project workflows — kickoff, design sprints, and Notion artifact push aligned with Hönnunarhandbók.",
+  "plugins": [
+    {
+      "name": "stafraen-heilsa",
+      "source": ".",
+      "description": "Project hub for Stafræn Heilsa — kickoff new projects, run visual design sprints, and push session artifacts to Notion. Aligned with the Hönnunarhandbók 4-phase UCD process.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Stafræn Heilsa"
+      },
+      "keywords": ["notion", "project-management", "healthcare", "iceland", "ux", "design"]
+    }
+  ]
+}
