@@ -517,3 +517,23 @@ Two full handbooks are available as reference files. Load them when relevant —
 - Viðauki (SKAL/GETUR): Binding requirements table for use in procurement and contracts
 
 **Important:** Þróunarhandbók requirements marked SKAL are **binding** in contracts. When a project's proposed approach conflicts with a SKAL item, flag this explicitly and reference the undanþáguferill (exception process) described in the handbook appendix.
+
+### `references/throdunarhandbok-vidaukar.md` — Þróunarhandbók Viðaukar (Edition 4, April 2026)
+
+Detailed technical appendices — separate document, 58 pages. Load this instead of or alongside the main Þróunarhandbók when deep technical specifics are needed.
+
+**Load when:**
+- Designing or reviewing Docker container setup (build pipeline, security, image size, logging, tagging)
+- Designing or reviewing Kubernetes configuration (GitOps, Argo CD, health checks, resource limits)
+- Setting up or reviewing CI/CD pipelines and GitHub Actions workflows
+- Running a formal code review — this contains the review template, severity classification, and worked examples
+- Checking the QA and production release process in detail
+- Reviewing how code repositories and deliverable handoffs are structured
+
+**Key appendices:**
+- Docker kröfur og bestu venjur — build pipeline, security scanning, image conventions
+- Kubernetes kröfur og samhæfni — GitOps with Argo CD, health endpoints, resource configs
+- Útgáfuferlar (QA og PROD) — step-by-step release process, responsibility matrix
+- Sjálfvirkir útgáfuferlar á GitHub — CI/CD workflow standards
+- Yfirferðarskjal kóðarýni — code review template with severity classification and examples
+- Samspil kóðagreina og skila — branch strategy and handoff protocol
