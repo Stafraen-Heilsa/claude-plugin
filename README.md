@@ -1,6 +1,22 @@
-# Stafræn Heilsa Plugin
+# Stafræn Heilsa — Claude Skill
 
-Claude plugin for Stafræn Heilsa project workflows.
+Project hub skill for Stafræn Heilsa / Embætti landlæknis workflows.
+
+## Install
+
+**Windows (PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/install.ps1 | iex
+```
+
+**macOS / Linux:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/install.sh | bash
+```
+
+Restart Claude Code after installing. Re-run the same command to update.
+
+---
 
 ## Skills
 

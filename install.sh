@@ -1,0 +1,21 @@
+#!/bin/bash
+# Stafræn Heilsa — Claude Skill Installer (macOS / Linux)
+# Run this once to install, re-run to update
+
+SKILL_NAME="notion-project-hub"
+SKILLS_DIR="$HOME/.claude/skills/$SKILL_NAME"
+RAW="https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/skills/$SKILL_NAME"
+
+echo "Installing $SKILL_NAME skill..."
+
+mkdir -p "$SKILLS_DIR/references"
+
+curl -fsSL "$RAW/SKILL.md" -o "$SKILLS_DIR/SKILL.md" && echo "  + SKILL.md"
+
+for ref in honnunarhandbok.md throdunarhandbok.md throdunarhandbok-vidaukar.md; do
+    curl -fsSL "$RAW/references/$ref" -o "$SKILLS_DIR/references/$ref" && echo "  + references/$ref"
+done
+
+echo ""
+echo "Done! Skill installed to: $SKILLS_DIR"
+echo "Restart Claude Code to activate."
