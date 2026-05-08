@@ -1,5 +1,5 @@
 ---
-name: notion-project-hub
+name: nytt-verkefni
 description: >
   Stafræn Heilsa project hub — three modes: (1) KICKOFF: invoke with /kickofftool, "new
   project", or when dropping spec documents. Runs structured intake per Hönnunarhandbók

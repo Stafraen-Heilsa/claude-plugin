@@ -2,7 +2,7 @@
 # Run this once to install, re-run to update
 
 $REPO = "https://github.com/MRH-Landlaeknir/claude-plugin"
-$SKILL_NAME = "notion-project-hub"
+$SKILL_NAME = "nytt-verkefni"
 $SKILLS_DIR = "$env:USERPROFILE\.claude\skills\$SKILL_NAME"
 
 Write-Host "Installing $SKILL_NAME skill..." -ForegroundColor Cyan

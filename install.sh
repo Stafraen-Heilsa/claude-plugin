@@ -2,7 +2,7 @@
 # Stafræn Heilsa — Claude Skill Installer (macOS / Linux)
 # Run this once to install, re-run to update
 
-SKILL_NAME="notion-project-hub"
+SKILL_NAME="nytt-verkefni"
 SKILLS_DIR="$HOME/.claude/skills/$SKILL_NAME"
 RAW="https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/skills/$SKILL_NAME"
 
