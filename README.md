@@ -6,12 +6,12 @@ Project hub skill for Stafræn Heilsa / Embætti landlæknis workflows.
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Stafraen-Heilsa/claude-plugin/main/install.ps1 | iex
 ```
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Stafraen-Heilsa/claude-plugin/main/install.sh | bash
 ```
 
 Restart Claude Code after installing. Re-run the same command to update.
