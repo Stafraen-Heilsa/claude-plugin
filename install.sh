@@ -4,9 +4,7 @@
 
 SKILL_NAME="nytt-verkefni"
 SKILLS_DIR="$HOME/.claude/skills/$SKILL_NAME"
-RAW_NEW="https://raw.githubusercontent.com/Stafraen-Heilsa/claude-plugin/main/skills/$SKILL_NAME"
-RAW_OLD="https://raw.githubusercontent.com/MRH-Landlaeknir/claude-plugin/main/skills/$SKILL_NAME"
-if curl -fsSL -o /dev/null "$RAW_NEW/SKILL.md"; then RAW="$RAW_NEW"; else RAW="$RAW_OLD"; fi
+RAW="https://raw.githubusercontent.com/Stafraen-Heilsa/claude-plugin/main/skills/$SKILL_NAME"
 
 echo "Installing $SKILL_NAME skill..."
 
